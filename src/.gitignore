@@ -1,0 +1,28 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Node modules (if any)
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Images to ignore
+commerce.png
+genrify.png
+IMG_1725.WEBP
+nani.png
+sume.webp
+template.png
+
+# PDF to ignore
+Resume.pdf
