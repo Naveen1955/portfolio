@@ -17,12 +17,9 @@ node_modules/
 .env.local
 
 # Images to ignore
-commerce.png
-genrify.png
 IMG_1725.WEBP
 nani.png
 sume.webp
-template.png
 
 # PDF to ignore
 Resume.pdf
