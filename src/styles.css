@@ -244,6 +244,24 @@ body.light .footer { color: #9ca3af; }
   opacity: 0; transform: translateY(30px);
   transition: opacity 0.6s ease, transform 0.6s ease, box-shadow 0.3s;
 }
+.project-status-badge.ongoing {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  background-color: rgba(234, 179, 8, 0.15);
+  color: #EAB308;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #EAB308;
+}
 .project-card.visible { opacity: 1; transform: translateY(0); }
 .project-card:hover { transform: translateY(-10px); box-shadow: 0 25px 50px rgba(0,0,0,0.15); }
 .project-thumb {
